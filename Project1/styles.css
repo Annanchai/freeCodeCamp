@@ -1,0 +1,81 @@
+body{
+  background-color:#7575bd;
+  width:100%;
+  height:100vh;
+  margin:0;
+  font-family:Tahoma;
+  color:white;
+  font-size:18px;
+}
+h1, p{
+  margin: 1em auto; 
+  text-align:center;
+}
+h1{
+  font-weight:500;
+}
+p{
+  margin-top:-20px;
+  margin-bottom:2em;
+}
+form{
+  width: 70vw;
+	max-width: 700px;
+	min-width: 300px;
+  background-color:#2d2d4e;
+  margin:0 auto;
+  padding:2em;
+  border-radius:5px
+}
+label, input, textarea{
+  display:block;
+  margin:5 0;
+}
+
+input, textarea, select{
+  width:100%;
+  min-height:3em;
+}
+
+input[type="radio"], input[type="checkbox"]{
+  min-height:1.5em;
+  width:1.5em;
+  display:inline;
+  vertical-align:middle;
+}
+
+input[type="text"]{
+  border:none;
+  border-radius:5px;
+}
+
+fieldset{
+  border:none;
+  margin-bottom:10px;
+}
+
+.round{
+  border-radius:5px;
+  border:none;
+  color:grey;
+  padding:15px;
+  font-family:Tahoma;
+  font-size:18px;
+  margin-bottom:15px
+}
+
+textarea{
+  border-radius:5px;
+  font-family:Tahoma;
+  font-size:18px;
+}
+
+input[type="submit"]{
+  margin-top:20px;
+  font-family:Tahoma;
+  font-size:16px;
+  color:white;
+  background-color:#37af65;
+  border:none;
+  border-radius:5px;
+}
